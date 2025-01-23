@@ -11,19 +11,21 @@
     margin: 0 auto;
     width: 100%;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     gap: 30px;
     padding: 20px 0px;
 }
 
-.ul{
+.ul {
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.button1{
+
+.button1 {
     width: 155px;
     height: 46px;
     background: #DC780B;
@@ -38,31 +40,32 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 
-.hero-right{
+.hero-right {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    text-align:right;
 }
 
 
-.righth1{
+.righth1 {
     width: 555px;
     height: 161px;
     display: flex;
     flex-direction: column;
 }
 
-.rightp{
+.rightp {
     width: 555px;
     height: 43px;
     display: flex;
-    
+
 }
 
-.button2{
+.button2 {
     width: 158px;
     height: 60px;
     background: #DC780B;
@@ -72,7 +75,7 @@
     gap: 30px;
 }
 
-.button3{
+.button3 {
     width: 158px;
     height: 60px;
     background: #ffffff;
@@ -82,3 +85,98 @@
 }
 
 
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #d28c47;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 250px;
+}
+
+.feature img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.feature h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #222;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #666;
+}
+
+.image-section {
+    width: 555px;
+    height: 500px;
+
+
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-section {
+    flex: 1;
+}
+
+h2 {
+    color: #d28c47;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #d28c47;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
