@@ -235,13 +235,13 @@ p {
 }
 
 
-.menu{
- display: flex;
- flex-direction: column;
- align-items: center;
- gap: 30px;
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 
-  
+
 
 }
 
@@ -256,13 +256,14 @@ p {
 .menu-title p {
     width: 60%;
 }
-.menu-cards{
+
+.menu-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
-  
+
 }
 
 .menu-card {
@@ -281,14 +282,157 @@ p {
     padding: 25px;
 }
 
-.button5{
+.button5 {
     color: #DC780B;
     border: 1px solid #0000001A;
     display: flex;
-     align-items: center;
+    align-items: center;
     background: #fff;
     width: 142px;
     height: 42px;
     justify-content: center;
     border-radius: 5px;
 }
+
+
+.take-rassomlar {
+    display: flex;
+    align-items: flex-end;
+    width: 323.14px;
+    height: 651px;
+}
+
+.take-writing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    width: 50%;
+    gap: 10px;
+
+}
+
+.take-writing h3 {
+    color: #DC780B;
+
+}
+
+.take-writing h1 {
+
+
+    font-size: 32px;
+    margin-top: 20px;
+    align-items: center;
+
+
+}
+
+
+.take-btns {
+    color: #ffffff;
+    background: #000000;
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+
+}
+
+.take-btns1 {
+    color: #000000;
+    background: #ffffff;
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+.take {
+
+    background-color:  #FBF1E7; 
+}
+.take-btn{
+    display: flex;
+    gap: 15px;
+}
+
+.take-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tast-yozuv{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.tast-yozuv  h3{
+    color: #DC780B;
+
+}
+
+.tast-yozuv p{
+    font-size: 16px;
+     margin-top: 20px;
+}
+.testimonial{
+margin-top: 200px;
+}
+
+
+
+
+.con-wiriting h3{
+    color: #DC780B;
+ 
+}
+
+.con-wiriting h1{
+    font-size: 32px;
+   
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffffff ;
+    padding: 50px 0px;
+    gap: 15px;
+
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;  
+    margin: 10p0x;   
+}
+
+.img11{
+    display: flex;
+    justify-content: space-between;
+}
+
